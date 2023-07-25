@@ -1,0 +1,13 @@
+export const LOWEST_IDEAL_BMI = 18.5
+export const HIGHEST_IDEAL_BMI = 24.9
+export const UNDERWEIGHT_BMI = 18.5
+export const LOWEST_OVERWEIGHT_BMI = 25
+export const HIGHEST_OVERWEIGHT_BMI = 29.9
+export const OBESITY_BMI = 30
+export const DIVISOR_FOR_INCHES = 2.54
+export const DIVISOR_FOR_KILOS = 2.205
+export const DIVISOR_FOR_POUNDS = 703
+export const UNDERWEIGHT = 'an underweight'
+export const OVERWEIGHT = 'an overweight'
+export const OBESE = 'an obese'
+export const NORMAL_WEIGHT = 'a healthy weight'
