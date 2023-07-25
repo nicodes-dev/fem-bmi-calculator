@@ -5,7 +5,7 @@ const Metric = () => {
 
   return (
     <div className="grid grid-cols-2 gap-x-[1.5rem] col-span-full gap-y-[1rem]">
-      <div className="relative col-span-full md:col-start-1 md:col-end-2">
+      <div className="relative col-span-full md:col-start-1 md:col-span-1">
         <label
           htmlFor="height"
           className="text-[.875rem] leading-[21px] text-[#5e6e85] mb-[8px]"
@@ -28,7 +28,7 @@ const Metric = () => {
           />
         </div>
       </div>
-      <div className="relative col-span-full md:col-start-2 md:col-end-3">
+      <div className="relative col-span-full md:col-start-2 md:col-span-1">
         <label
           htmlFor="weight"
           className="text-[.875rem] leading-[21px] text-[#5e6e85] mb-[8px]"
@@ -40,7 +40,7 @@ const Metric = () => {
             type="number"
             id="weight"
             name="weight"
-            className="border-[1px] border-[#d8e2e7] rounded-[12px] bg-white w-full py-[20px] px-[1.5rem] text-[1.5rem] font-semibold leading-[29px] tracking-[-12.px]"
+            className="kg border-[1px] border-[#d8e2e7] rounded-[12px] bg-white w-full py-[20px] px-[1.5rem] text-[1.5rem] font-semibold leading-[29px] tracking-[-1.2px]"
             value={kg === null || 0 ? '' : kg}
             onChange={e => {
               if (e.target.value.length === 0 || isNaN(e.target.value)) {
