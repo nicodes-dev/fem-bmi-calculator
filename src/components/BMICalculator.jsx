@@ -35,7 +35,7 @@ const BMICalculator = () => {
 
   return (
     <div
-      className="bg-white shadow-[16px_32px_56px_0px_rgba(143,174,207,0.25)] p-[1.5rem] rounded-[16px] grid gap-y-[1.5rem] mt-[3rem] md:mt-[40px] col-span-full md:p-[2rem] md:gap-y-[2rem] md:grid-cols-2 gap-x-[1.5rem] lg:col-start-7 lg:col-span-6 lg:row-start-2 lg:mt-[28px] lg:items-start
+      className="bg-white shadow-[16px_32px_56px_0px_rgba(143,174,207,0.25)] p-[1.5rem] rounded-[16px] grid gap-y-[1.5rem] mt-[3rem] md:mt-[40px] col-span-full md:p-[2rem] md:gap-y-[2rem] md:grid-cols-2 gap-x-[1.5rem] lg:col-start-7 lg:col-span-6 lg:row-start-2 lg:mt-[43px] lg:items-start
     "
     >
       <h2 className="text-[1.5rem] font-semibold leading-[29px] tracking-[-1.2px] text-[#253347] col-span-full">
